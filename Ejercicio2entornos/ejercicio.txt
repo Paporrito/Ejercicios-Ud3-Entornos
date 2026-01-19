@@ -1,0 +1,11 @@
+Logs del sistema	*.log, logs/	Cambian constantemente, no son código
+
+Configuraciones IDE	.vscode/, .idea/, *.swp	Configuración personal del programador
+
+Archivos compilados	dist/, build/, *.exe	Se regeneran con npm build, pesados
+
+Dependencias externas	node_modules/, vendor/	Se instalan con npm install, miles de archivos
+
+Archivos del SO	.DS_Store, Thumbs.db	Creados por Windows/Mac, no código
+
+Datos sensibles	.env, secrets.json	Contienen contraseñas, API keys
